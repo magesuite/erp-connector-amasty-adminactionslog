@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Amasty\AdminActionsLog\Logging\Entity\SaveHandlerProvider">
+        <arguments>
+            <argument name="entityTypes" xsi:type="array">
+                <item name="MageSuite\ErpConnectorAmastyAdminActionsLog\Logging\AdminActionsLog\Entity\SaveHandler\Connector" xsi:type="array">
+                    <item name="connector" xsi:type="string">MageSuite\ErpConnector\Model\Data\Connector</item>
+                </item>
+            </argument>
+        </arguments>
+    </type>
+</config>
+
