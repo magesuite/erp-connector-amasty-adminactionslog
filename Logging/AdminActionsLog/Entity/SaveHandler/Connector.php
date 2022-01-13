@@ -71,4 +71,3 @@ class Connector extends \Amasty\AdminActionsLog\Logging\Entity\SaveHandler\Commo
         return $this->sensitiveFields;
     }
 }
-
