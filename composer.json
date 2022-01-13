@@ -5,8 +5,7 @@
     "license": "OSL-3.0",
     "type": "magento2-module",
     "require": {
-        "creativestyle/magesuite-erp-connector": "^1.0.0",
-        "amasty/adminactionslog": "^2.0.0"
+        "creativestyle/magesuite-erp-connector": "^1.0.0"
     },
     "autoload": {
         "files": [
